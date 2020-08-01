@@ -15,5 +15,5 @@ function mostrar()
 
 	}
 		
-	document.getElementById("Numero").value = numero;
+	document.getElementById("txtIdNumero").value = numero;
 }//FIN DE LA FUNCIÓN
