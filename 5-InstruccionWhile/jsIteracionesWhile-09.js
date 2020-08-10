@@ -17,7 +17,7 @@ resp='s';
 num = parseInt(prompt("Ingrese un numero: "));
 min = num;
 max = num;
-resp = prompt("Ingresa otro? s/n");
+
 
 
 while(resp=='s')

@@ -1,4 +1,4 @@
-function mostrar() {
+/*function mostrar() {
 	let num;
 	let i = 0;
 	let acumulador = 0;
@@ -30,3 +30,16 @@ function mostrar() {
 
 }//FIN DE LA FUNCIÓN
 */
+
+function mostrar() {
+
+	let num;
+	num = parseInt(prompt("Ingrese un numero :"));
+	num = num +parseInt(prompt("Ingrese un numero: "));
+	num = num +parseInt(prompt("Ingrese un numero: "));
+	num = num +parseInt(prompt("Ingrese un numero: "));
+	num = num +parseInt(prompt("Ingrese un numero: "));
+
+	document.getElementById("txtIdSuma").value =num;
+	document.getElementById("txtIdPromedio").value = num / 5;
+}

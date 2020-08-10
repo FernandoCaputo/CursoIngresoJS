@@ -1,4 +1,4 @@
-function mostrar()
+/*function mostrar()
 {
 	let vMaximo = 10;
 	let vMinimno = 1;
@@ -43,3 +43,21 @@ function mostrar()
 }
 //FIN DE LA FUNCIÓN
 */
+
+function mostrar(){
+
+let nota;
+
+nota = Math.round(Math.random() * 9 + 1);
+
+if (nota >=9)
+{
+	alert("Excelente te sacaste "+nota);
+}
+else if (nota >= 4) {
+	alert("Aprobaste te sacaste "+nota);
+}
+else{
+	alert("Vamos, la proxima se puede nota: "+nota);
+}
+}
